@@ -26,7 +26,7 @@ type PlaceItemInMatrixAtPosition<
     Item,
     Pos extends Position,
     Acc extends unknown[][] = []
-> = PlaceItemInMatrix<Mat, Item, Pos[0], Pos[1]>;
+> = PlaceItemInMatrix<Mat, Item, Pos[1], Pos[1]>;
 
 type MovePosition<
     Pos extends Position,
