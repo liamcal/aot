@@ -1,0 +1,19 @@
+{
+  "name": "aot",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "verify": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.0",
+    "bun-types": "latest",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "type-testing": "^0.2.0"
+  }
+}
