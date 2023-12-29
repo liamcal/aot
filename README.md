@@ -1,6 +1,5 @@
 # Advent of Typescript
 https://typehero.dev/aot-2023
-# aot
 
 To install dependencies:
 
